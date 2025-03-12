@@ -1,0 +1,30 @@
+Index,Air Quality,Risk level,Description of risk: General population,Description of risk: Sensitive Population,People with cardiovascular or respiratory diseases and those over 60 years of age,Children under 12 years old and pregnant people,General population,Color,Color Code
+1,Buena,Bajo,El riesgo en salud es mínimo o nulo.,El riesgo en salud es mínimo o nulo.,Disfruta las actividades al aire libre,Disfruta las actividades al aire libre,Disfruta las actividades al aire libre,Verde,#00E400 
+2,Aceptable,Moderado,El riesgo en salud es mínimo.,"Personas que son sensibles al ozono(O3) o material particulado (PM10 y PM2.5) pueden experimentar irritaciónde ojos y síntomas respiratorios como tos, irritación de vías respiratorias, expectoración o flema, dificultad para respirar o sibilancias.","Es posible realizar actividades físicas al aire libre como trotar suave, caminar a paso rápido o moverse en bicicleta, monopatín/scooter, patines y patinetas.
+Reduce las actividades físicas vigorosas al aire libre como ejercicios aeróbicos, jugar fútbol, básquetbol, voleibol, atletismo, ciclismo deportivo o correr.
+Si presentas algún síntoma o molestia o tienes dudas, busca el consejo de tu médico.
+Infórmate sobre la evolución de la calidad del aire.","Disfruta las actividades al aire libre.
+Infórmate sobre la evolución de la calidad del aire.","Disfruta las actividades al aire libre.
+Infórmate sobre la evolución de la calidad del aire.",Amarillo ,#FFFF00 
+3,Mala,Alto,Es poco probable que se vea afectada.,Incremento en el riesgo de tener síntomas respiratorios y/o disminuciónen la función pulmonar.,"
+Reduce las actividades físicas vigorosas al aire libre como ejercicios aeróbicos, jugar fútbol, básquetbol, voleibol, atletismo, ciclismo deportivo o correr, trotar suave, caminar a paso rápido o moverse en bicicleta, monopatín/scooter, patines ypatinetas. 
+Si presentas algún síntoma o molestia o tienes dudas, busca elconsejo de tu médico.
+Infórmate sobre la evolución de la calidad del aire.","Es posible realizar actividades físicas al aire libre como trotar suave, caminar a paso rápido o moverse en bicicleta, monopatín/scooter, patines y patinetas; aumenta los períodos de descanso.
+Reduce las actividades físicas vigorosas al aire libre como ejercicios aeróbicos, jugar fútbol, básquetbol, voleibol, atletismo, ciclismo deportivo, etc.
+Si se presentan síntomas respiratorios o cardiacos, suspende la actividad y acude a tu médico.
+Infórmate sobre la evolución de la calidad del aire.
+","
+Es posible realizar actividades al aire libre. Si presenta síntomas como tos o falta de aire, toma más descansos y realiza actividades menos vigorosas.
+Infórmate sobre la evolución de la calidad del aire.",Naranja,#FF7E00 
+4,Muy Mala,Muy Alto,Se puede presentar daños a la salud.,"Pueden experimentar un agravamiento de asma, enfermedad pulmonar obstructiva crónica o evento cardiovascular e incremento en la probabilidad de muerte prematura en personas con enfermedad pulmonar obstructiva crónica y cardiaca.","Es posible realizar actividades físicas en espacios interiores, siempre y cuando se trate de un espacio libre de humo de tabaco.
+Evita las actividades físicas vigorosas y moderadas, así como el tiempo de estancia al aire libre.
+Si presentas algún síntoma o molestia o tienes dudas, busca el consejo de tu médico.
+Infórmate sobre la evolución de la calidad del aire.","Reduce las actividades físicas al aire libre y de preferencia realízalas en espacios interiores, siempre y cuando se trate de un espacio libre de humo de tabaco.
+Evita la actividad física vigorosa o prolongada al aire libre.
+Infórmate sobre la evolución de la calidad del aire.","Reduce las actividades físicas al aire libre y de preferencia realízalas en espacios interiores, siempre y cuando se trate de un espacio libre de humo de tabaco.
+Evita la actividad física vigorosa o prolongada al aire libre.
+Infórmate sobre la evolución de la calidad del aire.",Rojo,#FF0000 
+5,Extremadamente Mala,Extremadamente Alto,Es más probable que cualquier persona se vea afectada por efectos graves a la salud.,Es más probable que cualquier persona se vea afectada por efectos graves a la salud.,"Permanece en espacios interiores en donde puedes realizar actividades físicas, reprograma tus actividades al aire libre y si presentas síntomas respiratorios y/ocardiacos acude al médico.
+Infórmate sobre la evolución de la calidad del aire.","Permanece en espacios interiores en donde puedes realizar actividades físicas, reprograma tus actividades al aire libre y si presentas síntomas respiratorios y/ocardiacos acude al médico.
+Infórmate sobre la evolución de la calidad del aire.","Permanece en espacios interiores en donde puedes realizar actividades físicas, reprograma tus actividades al aire libre y si presentas síntomas respiratorios y/o cardiacos acude al médico.
+Infórmate sobre la evolución de la calidad del aire.",Morado ,#8F3F97 

@@ -1,0 +1,53 @@
+name: Update Requirements
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  update-requirements:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: pip install pipreqs
+
+      - name: Generate Requirements from Code
+        run: pipreqs . --force --ignore .github --savepath generated_requirements.txt
+
+      - name: Update requirements.txt if changed
+        id: update-requirements
+        run: |
+          if ! diff -u <(sort 5.Model_Deployment/requirements.txt) <(sort generated_requirements.txt); then
+            echo "Updating requirements.txt"
+            mv generated_requirements.txt 5.Model_Deployment/requirements.txt
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git fetch origin main
+            git checkout main
+            git pull origin main --rebase
+            git add 5.Model_Deployment/requirements.txt
+            git commit -m "Auto-update requirements.txt"
+            git push origin main
+            echo "UPDATE_NEEDED=true" >> $GITHUB_ENV
+            echo "::set-output name=UPDATE_NEEDED::true"
+          else
+            echo "No changes in requirements.txt"
+            echo "UPDATE_NEEDED=false" >> $GITHUB_ENV
+            echo "::set-output name=UPDATE_NEEDED::false"
+          fi
+          
+      - name: Comment on the merged PR if requirements were updated
+        if: steps.update-requirements.outputs.UPDATE_NEEDED == 'true'
+        uses: mshick/add-pr-comment@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          message: "🚨 Heads up! `requirements.txt` has been updated automatically in `main` after merging this PR. Please remember to run `pipreqs . --force` and update your local `requirements.txt` file before submitting future PRs. ✅"

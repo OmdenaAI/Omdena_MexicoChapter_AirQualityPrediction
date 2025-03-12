@@ -1,0 +1,40 @@
+The code in repository implements a dynamic Air Quality Index (AQI) monitoring and visualization system for Mexico, using libraries like Streamlit, Folium, and Pandas. 
+Here's an overview of the purpose and functionality of the major components:
+
+# Main Features
+
+## Main Dasboard (Main_landing_page_custom.py):
+
+This Python script, built using Streamlit, serves as the foundation for creating an interactive and customizable dashboard interface. 
+It is the central component of the application, providing the structural backbone for user navigation, 
+sidebar functionality, filters, and more and also contains frontend code for beautifying the UI of dashboard
+The file establishes a modular base to incorporate additional pages or features seamlessly.
+
+## AQI Overview (Page_1.py):
+
+Provides a summary of AQI and pollutant levels for a selected station or all stations.
+Displays AQI status (e.g., Good, Moderate, Hazardous) with a color-coded banner.
+Shows pollutant levels like PM2.5, PM10, NO2, SO2, CO, and O3 using Streamlit metrics.
+Displays a table summarizing AQI data and traffic congestion indices for stations.
+
+## Interactive Map (Page_2.py):
+
+Embeds the heatmap in the Streamlit app using Streamlit-Folium.
+Uses Folium to generate an AQI heatmap with data from various monitoring stations.
+Displays AQI data as:
+A heatmap overlay where color intensity corresponds to AQI levels.
+Custom markers for each station, with color-coded icons based on AQI levels.
+Offers a "Refresh Map" button to reload real-time AQI data.
+
+## Data Handling (data_handlers.py):
+
+Manages loading AQI data from an Excel file.
+Retrieves real-time AQI data for the current hour.
+Provides utility functions to fetch station coordinates and names.
+
+## Multilingual Support (language_utils.py):
+
+Translates static text and station names into English and Spanish based on user preferences.
+
+
+

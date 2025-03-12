@@ -1,0 +1,29 @@
+Index,Air Quality,Risk level,Description of risk: General population,Description of risk: Sensitive Population,People with cardiovascular or respiratory diseases and those over 60 years of age,Children under 12 years old and pregnant people,General population,Color,Color Code
+1,Good,Low,The health risk is minimal or non-existent.,The health risk is minimal or non-existent.,Enjoy outdoor activities,Enjoy outdoor activities,Enjoy outdoor activities,Green,#00E400 
+2,Acceptable,Moderate,The health risk is minimal.,"People who are sensitive to ozone (O3) or particulate matter (PM10 and PM2.5) may experience eye irritation and respiratory symptoms such as coughing, airway irritation, coughing up phlegm, shortness of breath, or wheezing.","Outdoor physical activities such as light jogging, brisk walking, or cycling, skateboarding, rollerblading, and scootering are all possible.
+Reduce vigorous outdoor physical activities such as aerobic exercise, soccer, basketball, volleyball, athletics, cycling, or running.
+If you have any symptoms or discomfort or have questions, seek the advice of your doctor.
+Stay informed about the evolution of air quality.","Enjoy outdoor activities.
+Stay informed about the evolution of air quality.","Enjoy outdoor activities.
+Stay informed about the evolution of air quality.",Yellow,#FFFF00 
+3,Bad,High,It is unlikely that health will be affected.,Increased risk of respiratory symptoms and/or decreased lung function.,"Outdoor physical activities such as light jogging, brisk walking, or cycling, skateboarding, rollerblading, and scootering are all possible; increase rest periods.
+Reduce vigorous outdoor physical activities such as aerobic exercise, soccer, basketball, volleyball, athletics, cycling, etc.
+If respiratory or cardiac symptoms occur, stop the activity and see your doctor.
+Stay informed about the evolution of air quality.","Outdoor physical activities such as light jogging, brisk walking, or cycling, skateboarding, rollerblading, and scootering are all possible; increase rest periods.
+Reduce vigorous outdoor physical activities such as aerobic exercise, soccer, basketball, volleyball, athletics, cycling, etc.
+If respiratory or cardiac symptoms occur, stop the activity and see your doctor.
+Stay informed about the evolution of air quality.","Outdoor activities are possible. If you have symptoms such as coughing or shortness of breath, take more breaks and do less vigorous activities.
+Stay informed about the evolution of air quality.
+",Orange,#FF7E00 
+4,Very bad,Very high,Health damage may occur.,"They may experience worsening of asthma, chronic obstructive pulmonary disease or cardiovascular event and increased likelihood of premature death in people with chronic obstructive pulmonary disease and heart disease.","Physical activity is possible indoors, as long as it is a smoke-free space.
+Avoid vigorous and moderate physical activity, as well as spending time outdoors.
+If you have any symptoms or discomfort or have any questions, seek the advice of your doctor.
+Find out about the evolution of air quality.","Reduce outdoor physical activity and preferably do it indoors, as long as it is a smoke-free space.
+Avoid vigorous or prolonged physical activity outdoors.
+Stay informed about the evolution of air quality.","Reduce outdoor physical activity and preferably do it indoors, as long as it is a smoke-free space.
+Avoid vigorous or prolonged physical activity outdoors.
+Stay informed about the evolution of air quality.",Red,#FF0000 
+5,Extremely bad,Extremely high,Anyone is more likely to be affected by serious health effects.,Anyone is more likely to be affected by serious health effects.,"Stay indoors where you can do physical activities, reschedule your outdoor activities and if you have respiratory and/or cardiac symptoms, see a doctor.
+Stay informed about the evolution of air quality.","Stay indoors where you can do physical activities, reschedule your outdoor activities and if you have respiratory and/or cardiac symptoms, see a doctor.
+Stay informed about the evolution of air quality.","Stay indoors where you can do physical activities, reschedule your outdoor activities and if you have respiratory and/or cardiac symptoms, see a doctor.
+Stay informed about the evolution of air quality.",Purple,#8F3F97 
